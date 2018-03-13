@@ -21,7 +21,7 @@
     var handlers = {
  
       /**
-       * your button ががクリックされた際のイベントハンドラ。
+       * ボタンクリックのイベントハンドラ。
        * コンソールにクリックされたことをログ出力し、クリック回数をインクリメントする。
        */
       onClickYourButton: function(e) {
@@ -45,7 +45,7 @@
       $('#bt').on('click', handlers.onClickYourButton);
  
       // その他の初期化処理
-      window.alert(clickedCount);
+      window.alert("初期処理～～!");
     });
  
  
