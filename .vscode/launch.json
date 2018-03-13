@@ -15,6 +15,13 @@
             "request": "launch",
             "name": "Launch Chrome on local HTML",
             "file": "${workspaceFolder}/step2-withChrome/index.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome on local HTML with sourcemap",
+            "file": "${workspaceFolder}/step3-minify/index.html",
+            "sourceMaps": true
         }
     ]
 }
